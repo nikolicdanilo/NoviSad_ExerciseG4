@@ -36,7 +36,7 @@ public class TestBowling {
 		
 	}
 	@Test
-	public void testAddFrame() {
+	public void testAddFrame() throws BowlingException {
 		testGame=new BowlingGame();
 		testGame.addFrame(new Frame(4,3));
 		
@@ -44,7 +44,7 @@ public class TestBowling {
 		
 	}
 	@Test
-	public void testGameScore() {
+	public void testGameScore() throws BowlingException {
 		testGame=new BowlingGame();
 		testGame.addFrame(new Frame(4,3));
 		
@@ -52,7 +52,7 @@ public class TestBowling {
 		
 	}
 	@Test
-	public void testGameMultipleFrameScore() {
+	public void testGameMultipleFrameScore() throws BowlingException {
 		testGame=new BowlingGame();
 		testGame.addFrame(new Frame(4,3));
 		testGame.addFrame(new Frame(4,3));
@@ -60,7 +60,7 @@ public class TestBowling {
 		assertEquals(14,testGame.score());	
 	}
 	@Test(expected=BowlingException.class)
-	public void testGameAdd11Frame() {
+	public void testGameAdd11Frame() throws BowlingException {
 		testGame=new BowlingGame();
 		testGame.addFrame(new Frame(4,3));
 		testGame.addFrame(new Frame(4,3));
@@ -75,6 +75,14 @@ public class TestBowling {
 		testGame.addFrame(new Frame(4,3));
 		testGame.addFrame(new Frame(4,3));
 		
+	}
+	@Test
+	public void testGameSpare() throws BowlingException {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(5,5));
+		testGame.addFrame(new Frame(4,3));
+		
+		assertEquals(21,testGame.scoreWithBonus());	
 	}
 	
 
