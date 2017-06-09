@@ -140,3 +140,4 @@ RefactoringAction 1497032881128 TestBowling.java ADD void testGameStrikeMultiple
 RefactoringAction 1497032891143 TestBowling.java RENAME testGameStrikeMultiple()/2=>void testGameBonus() METHOD
 RefactoringAction 1497032894152 TestBowling.java RENAME testGameBonus()=>void testGameBonusThrows() METHOD
 EditAction 1497032943720 TestBowling.java 3258 13 60 12
+EditAction 1497032989092 TestBowling.java 3259 13 60 12
