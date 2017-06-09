@@ -186,3 +186,12 @@ RefactoringAction 1497033698282 TestBowling.java RENAME testGameBonusThrowsSpa()
 RefactoringAction 1497033706798 TestBowling.java RENAME testGameBonusThrowsSpare()=>void testGameBonusThrowsSpareSecondThrowNot() METHOD
 RefactoringAction 1497033709810 TestBowling.java RENAME testGameBonusThrowsSpareSecondThrowNot()=>void testGameBonusThrowsSpareSecondThrowNotZero() METHOD
 EditAction 1497033752669 TestBowling.java 5535 17 109 14
+UnitTestCaseAction 1497033763024 TestBowling.java FAIL
+UnitTestSessionAction 1497033763025 TestBowling.java FAIL
+UnitTestCaseAction 1497033812109 TestBowling.java OK
+UnitTestSessionAction 1497033812111 TestBowling.java OK
+RefactoringAction 1497033818016 TestBowling.java ADD void testGameBonusThrowsSpareSecondThrowNotZero()/2 METHOD
+RefactoringAction 1497033866059 TestBowling.java RENAME testGameBonusThrowsSpareSecondThrowNotZero()/2=>void testGameBonusThrowsSpareFirstThrow() METHOD
+RefactoringAction 1497033868072 TestBowling.java RENAME testGameBonusThrowsSpareFirstThrow()=>void testGameBonusThrowsSpareFirstThrowGreater() METHOD
+RefactoringAction 1497033870583 TestBowling.java RENAME testGameBonusThrowsSpareFirstThrowGreater()=>void testGameBonusThrowsSpareFirstThrowGreaterThan10() METHOD
+EditAction 1497033872023 TestBowling.java 6113 18 121 14
