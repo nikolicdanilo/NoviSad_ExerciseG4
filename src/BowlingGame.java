@@ -55,7 +55,12 @@ public class BowlingGame {
 				frames.get(i).setBonus(frames.get(i+1).getFirstThrow());
 			}
 			if(frames.get(i).isStrike()&& i!=frames.size()-1){
+				if(frames.get(i+1).isStrike()){
+					frames.get(i).setBonus(frames.get(i+1).getFirstThrow()+frames.get(i+1).getFirstThrow());
+					
+				}else{
 				frames.get(i).setBonus(frames.get(i+1).getFirstThrow()+frames.get(i+1).getSecondThrow());
+				}
 			}
 		}
 		
