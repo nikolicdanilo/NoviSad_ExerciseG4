@@ -27,7 +27,7 @@ public class BowlingGame {
 			throw new BowlingException();
 		}
 		if(frames.get(frames.size()-1).isSpare()){
-			if(secondThrow!=0){
+			if(secondThrow!=0 || firstThrow>10){
 				throw new BowlingException();
 			}
 			frames.get(frames.size()-1).setBonus(firstThrow);
