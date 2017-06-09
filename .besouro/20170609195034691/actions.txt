@@ -63,3 +63,12 @@ UnitTestCaseAction 1497031571384 TestBowling.java FAIL
 UnitTestSessionAction 1497031571386 TestBowling.java FAIL
 RefactoringAction 1497031593109 BowlingGame.java ADD Object getFrames() METHOD
 EditAction 1497031621202 BowlingGame.java 805 5 2 0
+UnitTestCaseAction 1497031636034 TestBowling.java FAIL
+UnitTestSessionAction 1497031636035 TestBowling.java FAIL
+UnitTestCaseAction 1497031670143 TestBowling.java OK
+UnitTestSessionAction 1497031670145 TestBowling.java OK
+RefactoringAction 1497031680558 TestBowling.java ADD void testAddFrame()/2 METHOD
+RefactoringAction 1497031684071 TestBowling.java RENAME testAddFrame()/2=>void testScore() METHOD
+RefactoringAction 1497031689083 TestBowling.java RENAME testScore()=>void testGameS() METHOD
+RefactoringAction 1497031690095 TestBowling.java RENAME testGameS()=>void testGameScore() METHOD
+EditAction 1497031704394 TestBowling.java 1083 7 17 7
