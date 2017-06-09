@@ -111,3 +111,11 @@ UnitTestSessionAction 1497032151733 TestBowling.java FAIL
 RefactoringAction 1497032156895 BowlingGame.java ADD Object scoreWithBonus() METHOD
 RefactoringAction 1497032212920 BowlingGame.java ADD void dodajBonuseFrejmovima() METHOD
 EditAction 1497032427818 BowlingGame.java 1393 7 11 0
+UnitTestCaseAction 1497032443263 TestBowling.java OK
+UnitTestSessionAction 1497032443266 TestBowling.java OK
+UnitTestCaseAction 1497032443288 TestBowling.java OK
+UnitTestSessionAction 1497032443291 TestBowling.java OK
+RefactoringAction 1497032449639 TestBowling.java ADD void testGameSpare()/2 METHOD
+RefactoringAction 1497032453649 TestBowling.java RENAME testGameSpare()/2=>void testGameStri() METHOD
+RefactoringAction 1497032454659 TestBowling.java RENAME testGameStri()=>void testGameStrike() METHOD
+EditAction 1497032463145 TestBowling.java 2415 11 42 10
