@@ -6,3 +6,15 @@ EditAction 1497030912850 TestBowling.java 251 1 2 1
 UnitTestCaseAction 1497030925357 TestBowling.java FAIL
 UnitTestSessionAction 1497030925361 TestBowling.java FAIL
 EditAction 1497030964724 Frame.java 692 6 7 0
+UnitTestCaseAction 1497030975089 TestBowling.java OK
+UnitTestSessionAction 1497030975091 TestBowling.java OK
+RefactoringAction 1497030982047 TestBowling.java REMOVE testFrameScore() METHOD
+RefactoringAction 1497030983059 TestBowling.java ADD void testFrameScore() METHOD
+RefactoringAction 1497030986573 TestBowling.java ADD void testFrameScore()/2 METHOD
+RefactoringAction 1497030995091 TestBowling.java RENAME testFrameScore()/2=>void testis() METHOD
+RefactoringAction 1497030996109 TestBowling.java RENAME testis()=>void test() METHOD
+RefactoringAction 1497030997620 TestBowling.java RENAME test()=>void testS() METHOD
+RefactoringAction 1497030999133 TestBowling.java RENAME testS()=>void testSpare() METHOD
+RefactoringAction 1497031001648 TestBowling.java RENAME testSpare()=>void testStrie() METHOD
+RefactoringAction 1497031002658 TestBowling.java RENAME testStrie()=>void testStrike() METHOD
+EditAction 1497031032422 TestBowling.java 363 2 4 2
