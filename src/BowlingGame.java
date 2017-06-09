@@ -28,6 +28,8 @@ public class BowlingGame {
 		}
 		if(frames.get(frames.size()-1).isSpare()){
 			frames.get(frames.size()-1).setBonus(firstThrow);
+		}else if(frames.get(frames.size()-1).isStrike()){
+			frames.get(frames.size()-1).setBonus(firstThrow+secondThrow);
 		}
 	}
 	
