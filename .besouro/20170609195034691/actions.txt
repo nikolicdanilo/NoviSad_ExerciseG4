@@ -244,3 +244,6 @@ EditAction 1497034657580 TestBowling.java 7632 22 149 14
 RefactoringAction 1497034670614 TestBowling.java ADD void testGameBonusThrowsStrikeException()/2 METHOD
 RefactoringAction 1497034691737 TestBowling.java RENAME testGameBonusThrowsStrikeException()/2=>void testGameMaximum() METHOD
 EditAction 1497034743793 TestBowling.java 8208 23 162 15
+UnitTestCaseAction 1497034755733 TestBowling.java FAIL
+UnitTestSessionAction 1497034755735 TestBowling.java FAIL
+EditAction 1497034834563 TestBowling.java 8255 23 162 15

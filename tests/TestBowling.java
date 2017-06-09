@@ -254,7 +254,7 @@ public class TestBowling {
 		testGame.addFrame(new Frame(10,0));
 		testGame.addFrame(new Frame(10,0));
 		testGame.addFrame(new Frame(10,0));
-		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));//Ovo nije po besouru al sam morao proveriti :D
 		testGame.addFrame(new Frame(10,0));
 		testGame.addFrame(new Frame(10,0));
 		testGame.setBonus(10, 10);

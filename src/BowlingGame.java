@@ -38,6 +38,9 @@ public class BowlingGame {
 			}
 			frames.get(frames.size()-1).setBonus(firstThrow);
 		}else if(frames.get(frames.size()-1).isStrike()){
+			if(firstThrow>10 ||secondThrow>10){
+				throw new BowlingException();
+			}
 			if(frames.get(frames.size()-2).isStrike()){
 				frames.get(frames.size()-2).setBonus(10+firstThrow);
 			}
