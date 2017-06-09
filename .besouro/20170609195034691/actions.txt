@@ -176,3 +176,13 @@ CompilationAction 1497033531030 TestBowling.java
 UnitTestCaseAction 1497033534049 TestBowling.java FAIL
 UnitTestSessionAction 1497033534050 TestBowling.testGameBonusThrowsStrikeOn9And10 FAIL
 EditAction 1497033573052 BowlingGame.java 2058 7 13 0
+UnitTestCaseAction 1497033671900 TestBowling.java OK
+UnitTestSessionAction 1497033671901 TestBowling.testGameBonusThrowsStrikeOn9And10 OK
+RefactoringAction 1497033685739 TestBowling.java ADD void testGameBonusThrowsStrikeOn9And10()/2 METHOD
+RefactoringAction 1497033690750 TestBowling.java RENAME testGameBonusThrowsStrikeOn9And10()/2=>void testGameBonusThrows()/2 METHOD
+RefactoringAction 1497033695763 TestBowling.java RENAME testGameBonusThrows()/2=>void testGameBonusThrowsS() METHOD
+RefactoringAction 1497033696775 TestBowling.java RENAME testGameBonusThrowsS()=>void testGameBonusThrowsSpa() METHOD
+RefactoringAction 1497033698282 TestBowling.java RENAME testGameBonusThrowsSpa()=>void testGameBonusThrowsSpare() METHOD
+RefactoringAction 1497033706798 TestBowling.java RENAME testGameBonusThrowsSpare()=>void testGameBonusThrowsSpareSecondThrowNot() METHOD
+RefactoringAction 1497033709810 TestBowling.java RENAME testGameBonusThrowsSpareSecondThrowNot()=>void testGameBonusThrowsSpareSecondThrowNotZero() METHOD
+EditAction 1497033752669 TestBowling.java 5535 17 109 14
