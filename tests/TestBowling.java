@@ -118,6 +118,24 @@ public class TestBowling {
 		
 		assertEquals(105,testGame.scoreWithBonus());	
 	}
+	@Test(expected=BowlingException.class)
+	public void testGameBonusThrowsInWrongTime() throws BowlingException {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(5,5));
+		testGame.addFrame(new Frame(5,5));
+		testGame.setBonus(5, 0);
+		
+		
+	}
 	
 
 }

@@ -141,3 +141,14 @@ RefactoringAction 1497032891143 TestBowling.java RENAME testGameStrikeMultiple()
 RefactoringAction 1497032894152 TestBowling.java RENAME testGameBonus()=>void testGameBonusThrows() METHOD
 EditAction 1497032943720 TestBowling.java 3258 13 60 12
 EditAction 1497032989092 TestBowling.java 3259 13 60 12
+UnitTestCaseAction 1497033010193 TestBowling.java FAIL
+UnitTestSessionAction 1497033010194 TestBowling.java FAIL
+UnitTestCaseAction 1497033114715 TestBowling.java OK
+UnitTestSessionAction 1497033114716 TestBowling.java OK
+RefactoringAction 1497033120931 TestBowling.java ADD void testGameBonusThrows()/2 METHOD
+RefactoringAction 1497033125452 TestBowling.java RENAME testGameBonusThrows()/2=>void testGameBonusThrowsStrike() METHOD
+RefactoringAction 1497033137472 TestBowling.java RENAME testGameBonusThrowsStrike()=>void testGameBonusThrowsIn() METHOD
+RefactoringAction 1497033138482 TestBowling.java RENAME testGameBonusThrowsIn()=>void testGameBonusThrowsInWro() METHOD
+RefactoringAction 1497033139493 TestBowling.java RENAME testGameBonusThrowsInWro()=>void testGameBonusThrowsInWrong() METHOD
+RefactoringAction 1497033143007 TestBowling.java RENAME testGameBonusThrowsInWrong()=>void testGameBonusThrowsInWrongTime() METHOD
+EditAction 1497033169488 TestBowling.java 3864 14 73 12
