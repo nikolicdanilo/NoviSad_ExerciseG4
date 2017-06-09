@@ -39,3 +39,8 @@ EditAction 1497031200437 TestBowling.java 592 4 8 4
 UnitTestCaseAction 1497031212139 TestBowling.java FAIL
 UnitTestSessionAction 1497031212140 TestBowling.java FAIL
 EditAction 1497031234060 Frame.java 785 6 7 0
+UnitTestCaseAction 1497031248708 TestBowling.java OK
+UnitTestSessionAction 1497031248710 TestBowling.java OK
+RefactoringAction 1497031260705 TestBowling.java ADD void testSpareForStrike()/2 METHOD
+RefactoringAction 1497031271223 TestBowling.java RENAME testSpareForStrike()/2=>void testScoreFrameWithBonus() METHOD
+EditAction 1497031335086 TestBowling.java 757 5 11 5

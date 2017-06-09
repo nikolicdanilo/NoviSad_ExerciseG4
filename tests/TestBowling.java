@@ -28,5 +28,13 @@ public class TestBowling {
 		assertFalse(testFrame.isSpare());
 		
 	}
+	@Test
+	public void testScoreFrameWithBonus() {
+		testFrame=new Frame(10,0);
+		testFrame.setBonus(2);
+		assertEquals(12,testFrame.scoreWithBonus());
+		
+	}
+	
 
 }
