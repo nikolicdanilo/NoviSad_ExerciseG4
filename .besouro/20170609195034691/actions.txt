@@ -72,3 +72,12 @@ RefactoringAction 1497031684071 TestBowling.java RENAME testAddFrame()/2=>void t
 RefactoringAction 1497031689083 TestBowling.java RENAME testScore()=>void testGameS() METHOD
 RefactoringAction 1497031690095 TestBowling.java RENAME testGameS()=>void testGameScore() METHOD
 EditAction 1497031704394 TestBowling.java 1083 7 17 7
+UnitTestCaseAction 1497031717936 TestBowling.java FAIL
+UnitTestSessionAction 1497031717938 TestBowling.java FAIL
+UnitTestCaseAction 1497031801410 TestBowling.java OK
+UnitTestSessionAction 1497031801411 TestBowling.java OK
+RefactoringAction 1497031806241 TestBowling.java ADD void testGameScore()/2 METHOD
+RefactoringAction 1497031812254 TestBowling.java RENAME testGameScore()/2=>void testGameMultiple() METHOD
+RefactoringAction 1497031814266 TestBowling.java RENAME testGameMultiple()=>void testGameMultipleFrame() METHOD
+RefactoringAction 1497031815775 TestBowling.java RENAME testGameMultipleFrame()=>void testGameMultipleFrameScore() METHOD
+EditAction 1497031824104 TestBowling.java 1293 8 21 8

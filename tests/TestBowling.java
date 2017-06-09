@@ -51,6 +51,15 @@ public class TestBowling {
 		assertEquals(7,testGame.score());
 		
 	}
+	@Test
+	public void testGameMultipleFrameScore() {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		
+		assertEquals(14,testGame.score());
+		
+	}
 	
 
 }
