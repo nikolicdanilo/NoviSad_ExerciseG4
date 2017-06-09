@@ -210,3 +210,11 @@ RefactoringAction 1497034027292 TestBowling.java RENAME testGameFrame()=>void te
 RefactoringAction 1497034029804 TestBowling.java RENAME testGameFrameThrows()=>void testGameFrameThrowsGreater() METHOD
 RefactoringAction 1497034031816 TestBowling.java RENAME testGameFrameThrowsGreater()=>void testGameFrameThrowsGreaterThan10() METHOD
 EditAction 1497034045154 TestBowling.java 6303 19 123 14
+UnitTestCaseAction 1497034072502 TestBowling.java FAIL
+UnitTestSessionAction 1497034072503 TestBowling.java FAIL
+UnitTestCaseAction 1497034121050 TestBowling.java OK
+UnitTestSessionAction 1497034121051 TestBowling.java OK
+RefactoringAction 1497034263033 TestBowling.java ADD void testGameFrameThrowsGreaterThan10()/2 METHOD
+RefactoringAction 1497034280563 TestBowling.java RENAME testGameFrameThrowsGreaterThan10()/2=>void testGameFrameThrowsLowerThan() METHOD
+RefactoringAction 1497034281575 TestBowling.java RENAME testGameFrameThrowsLowerThan()=>void testGameFrameThrowsLowerThan0() METHOD
+EditAction 1497034287119 TestBowling.java 6496 20 125 14

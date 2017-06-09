@@ -206,6 +206,12 @@ public class TestBowling {
 		testGame.addFrame(new Frame(11,0));
 				
 	}
+	@Test(expected=BowlingException.class)
+	public void testGameFrameThrowsLowerThan0() throws BowlingException {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(-1,0));
+				
+	}
 	
 
 }
