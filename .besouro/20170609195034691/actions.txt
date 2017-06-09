@@ -201,3 +201,12 @@ UnitTestSessionAction 1497033906776 TestBowling.java FAIL
 UnitTestCaseAction 1497033926934 TestBowling.java FAIL
 UnitTestSessionAction 1497033926936 TestBowling.java FAIL
 EditAction 1497033955063 BowlingGame.java 2252 7 13 0
+UnitTestCaseAction 1497033980908 TestBowling.java OK
+UnitTestSessionAction 1497033980909 TestBowling.java OK
+RefactoringAction 1497033997241 TestBowling.java ADD void testGameBonusThrowsSpareFirstThrowGreaterThan10()/2 METHOD
+RefactoringAction 1497034019264 TestBowling.java RENAME testGameBonusThrowsSpareFirstThrowGreaterThan10()/2=>void testGame() METHOD
+RefactoringAction 1497034024782 TestBowling.java RENAME testGame()=>void testGameFrame() METHOD
+RefactoringAction 1497034027292 TestBowling.java RENAME testGameFrame()=>void testGameFrameThrows() METHOD
+RefactoringAction 1497034029804 TestBowling.java RENAME testGameFrameThrows()=>void testGameFrameThrowsGreater() METHOD
+RefactoringAction 1497034031816 TestBowling.java RENAME testGameFrameThrowsGreater()=>void testGameFrameThrowsGreaterThan10() METHOD
+EditAction 1497034045154 TestBowling.java 6303 19 123 14
