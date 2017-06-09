@@ -16,5 +16,11 @@ public class TestBowling {
 		assertTrue(testFrame.isStrike());
 		
 	}
+	@Test
+	public void testSpare() {
+		testFrame=new Frame(5,5);
+		assertTrue(testFrame.isSpare());
+		
+	}
 
 }
