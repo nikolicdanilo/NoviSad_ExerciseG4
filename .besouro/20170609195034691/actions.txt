@@ -155,3 +155,10 @@ EditAction 1497033169488 TestBowling.java 3864 14 73 12
 UnitTestCaseAction 1497033185865 TestBowling.java OK
 UnitTestSessionAction 1497033185868 TestBowling.java OK
 EditAction 1497033221752 TestBowling.java 3796 14 71 12
+UnitTestCaseAction 1497033245799 TestBowling.java FAIL
+UnitTestSessionAction 1497033245801 TestBowling.java FAIL
+UnitTestCaseAction 1497033278919 TestBowling.java OK
+UnitTestSessionAction 1497033278921 TestBowling.java OK
+RefactoringAction 1497033301261 TestBowling.java ADD void testGameBonusThrows()/2 METHOD
+RefactoringAction 1497033304275 TestBowling.java RENAME testGameBonusThrows()/2=>void testGameBonusThrowsStrike() METHOD
+EditAction 1497033369408 TestBowling.java 4371 15 84 13
