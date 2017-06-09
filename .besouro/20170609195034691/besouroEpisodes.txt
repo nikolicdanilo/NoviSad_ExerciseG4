@@ -21,3 +21,7 @@
 1497031801412 test-addition 2 120 true
 1497031801413 test-addition 1 120 true
 1497031801414 test-addition 2 120 true
+1497031894417 test-addition 1 88 true
+1497031894418 test-addition 2 88 true
+1497031894419 test-addition 1 88 true
+1497031894420 test-addition 2 88 true

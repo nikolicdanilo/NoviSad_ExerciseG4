@@ -57,7 +57,23 @@ public class TestBowling {
 		testGame.addFrame(new Frame(4,3));
 		testGame.addFrame(new Frame(4,3));
 		
-		assertEquals(14,testGame.score());
+		assertEquals(14,testGame.score());	
+	}
+	@Test(expected=BowlingException.class)
+	public void testGameAdd11Frame() {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
 		
 	}
 	
