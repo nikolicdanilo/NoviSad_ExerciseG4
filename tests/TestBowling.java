@@ -92,6 +92,15 @@ public class TestBowling {
 		
 		assertEquals(24,testGame.scoreWithBonus());	
 	}
+	@Test
+	public void testGameStrikeMultiple() throws BowlingException {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(4,3));
+		
+		assertEquals(45,testGame.scoreWithBonus());	
+	}
 	
 
 }

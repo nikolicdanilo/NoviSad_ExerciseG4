@@ -122,3 +122,8 @@ EditAction 1497032463145 TestBowling.java 2415 11 42 10
 UnitTestCaseAction 1497032477277 TestBowling.java FAIL
 UnitTestSessionAction 1497032477278 TestBowling.java FAIL
 EditAction 1497032559279 BowlingGame.java 1549 7 11 0
+UnitTestCaseAction 1497032576218 TestBowling.java OK
+UnitTestSessionAction 1497032576220 TestBowling.java OK
+RefactoringAction 1497032582287 TestBowling.java ADD void testGameStrike()/2 METHOD
+RefactoringAction 1497032589301 TestBowling.java RENAME testGameStrike()/2=>void testGameStrikeMultiple() METHOD
+EditAction 1497032637861 TestBowling.java 2691 12 47 11
