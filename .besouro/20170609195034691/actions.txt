@@ -119,3 +119,6 @@ RefactoringAction 1497032449639 TestBowling.java ADD void testGameSpare()/2 METH
 RefactoringAction 1497032453649 TestBowling.java RENAME testGameSpare()/2=>void testGameStri() METHOD
 RefactoringAction 1497032454659 TestBowling.java RENAME testGameStri()=>void testGameStrike() METHOD
 EditAction 1497032463145 TestBowling.java 2415 11 42 10
+UnitTestCaseAction 1497032477277 TestBowling.java FAIL
+UnitTestSessionAction 1497032477278 TestBowling.java FAIL
+EditAction 1497032559279 BowlingGame.java 1549 7 11 0
