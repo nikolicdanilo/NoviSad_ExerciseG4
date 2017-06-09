@@ -154,7 +154,7 @@ public class TestBowling {
 		assertEquals(110,testGame.scoreWithBonus());	
 	}
 	@Test
-	public void testGameBonusThrowsStrike() throws BowlingException {
+	public void testGameBonusThrowsStrikeOn9And10() throws BowlingException {
 		testGame=new BowlingGame();
 		testGame.addFrame(new Frame(10,0));
 		testGame.addFrame(new Frame(10,0));
