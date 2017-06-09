@@ -105,3 +105,9 @@ RefactoringAction 1497032105293 TestBowling.java RENAME testGameMultipleFrameSco
 RefactoringAction 1497032108305 TestBowling.java RENAME testGameA()=>void testGameStrike() METHOD
 RefactoringAction 1497032118828 TestBowling.java RENAME testGameStrike()=>void testGameSpare() METHOD
 EditAction 1497032138689 TestBowling.java 2186 10 38 9
+CompilationAction 1497032147066 TestBowling.java
+UnitTestCaseAction 1497032151731 TestBowling.java FAIL
+UnitTestSessionAction 1497032151733 TestBowling.java FAIL
+RefactoringAction 1497032156895 BowlingGame.java ADD Object scoreWithBonus() METHOD
+RefactoringAction 1497032212920 BowlingGame.java ADD void dodajBonuseFrejmovima() METHOD
+EditAction 1497032427818 BowlingGame.java 1393 7 11 0

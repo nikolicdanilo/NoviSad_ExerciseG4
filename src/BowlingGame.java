@@ -39,4 +39,23 @@ public class BowlingGame {
 		// TODO Auto-generated method stub
 		return frames;
 	}
+
+	public int scoreWithBonus() {
+		dodajBonuseFrejmovima();
+		int score=0;
+		for(int i=0;i<frames.size();i++){
+			score+=frames.get(i).scoreWithBonus();
+		}
+		return score;
+	}
+
+	private void dodajBonuseFrejmovima() {
+		for(int i=0;i<frames.size();i++){
+			if(frames.get(i).isSpare() && i!=frames.size()-1){
+				frames.get(i).setBonus(frames.get(i+1).getFirstThrow());
+			}
+		}
+		
+		
+	}
 }
