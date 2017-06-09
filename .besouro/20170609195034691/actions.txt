@@ -29,3 +29,10 @@ EditAction 1497031102814 TestBowling.java 472 3 6 3
 UnitTestCaseAction 1497031115171 TestBowling.java FAIL
 UnitTestSessionAction 1497031115172 TestBowling.java FAIL
 EditAction 1497031154134 Frame.java 770 6 7 0
+UnitTestCaseAction 1497031166106 TestBowling.java OK
+UnitTestSessionAction 1497031166108 TestBowling.java OK
+RefactoringAction 1497031176453 TestBowling.java ADD void testSpare()/2 METHOD
+RefactoringAction 1497031181471 TestBowling.java RENAME testSpare()/2=>void testSpareFor() METHOD
+RefactoringAction 1497031186486 TestBowling.java RENAME testSpareFor()=>void testSpareForS() METHOD
+RefactoringAction 1497031187997 TestBowling.java RENAME testSpareForS()=>void testSpareForStrike() METHOD
+EditAction 1497031200437 TestBowling.java 592 4 8 4
