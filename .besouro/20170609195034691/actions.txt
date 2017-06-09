@@ -44,3 +44,11 @@ UnitTestSessionAction 1497031248710 TestBowling.java OK
 RefactoringAction 1497031260705 TestBowling.java ADD void testSpareForStrike()/2 METHOD
 RefactoringAction 1497031271223 TestBowling.java RENAME testSpareForStrike()/2=>void testScoreFrameWithBonus() METHOD
 EditAction 1497031335086 TestBowling.java 757 5 11 5
+CompilationAction 1497031343545 TestBowling.java
+CompilationAction 1497031343547 TestBowling.java
+UnitTestCaseAction 1497031346472 TestBowling.java FAIL
+UnitTestSessionAction 1497031346474 TestBowling.java FAIL
+RefactoringAction 1497031352955 Frame.java ADD Object scoreWithBonus() METHOD
+RefactoringAction 1497031357018 Frame.java ADD void setBonus(int) METHOD
+RefactoringAction 1497031389296 Frame.java ADD int bonus FIELD
+EditAction 1497031424992 Frame.java 1007 8 10 0

@@ -1,10 +1,12 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int bonus;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		bonus=0;
 	}
 	
 	public int getFirstThrow() {
@@ -37,5 +39,15 @@ public class Frame {
 		}else{
 			return false;
 		}
+	}
+
+	public int scoreWithBonus() {
+		// TODO Auto-generated method stub
+		return score()+bonus;
+	}
+
+	public void setBonus(int i) {
+		// TODO Auto-generated method stub
+		bonus=i;
 	}
 }
