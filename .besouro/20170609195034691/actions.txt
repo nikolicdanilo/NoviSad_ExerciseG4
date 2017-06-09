@@ -152,3 +152,6 @@ RefactoringAction 1497033138482 TestBowling.java RENAME testGameBonusThrowsIn()=
 RefactoringAction 1497033139493 TestBowling.java RENAME testGameBonusThrowsInWro()=>void testGameBonusThrowsInWrong() METHOD
 RefactoringAction 1497033143007 TestBowling.java RENAME testGameBonusThrowsInWrong()=>void testGameBonusThrowsInWrongTime() METHOD
 EditAction 1497033169488 TestBowling.java 3864 14 73 12
+UnitTestCaseAction 1497033185865 TestBowling.java OK
+UnitTestSessionAction 1497033185868 TestBowling.java OK
+EditAction 1497033221752 TestBowling.java 3796 14 71 12
