@@ -241,7 +241,24 @@ public class TestBowling {
 		testGame.addFrame(new Frame(4,3));
 		testGame.addFrame(new Frame(4,3));
 		testGame.addFrame(new Frame(10,0));
-		testGame.setBonus(11, 0);
+		testGame.setBonus(11, 11);
+				
+	}
+	@Test
+	public void testGameMaximum() throws BowlingException {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.setBonus(10, 10);
+		assertEquals(300,testGame.scoreWithBonus());
 				
 	}
 	
