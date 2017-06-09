@@ -3,3 +3,6 @@ RefactoringAction 1497030783927 TestBowling.java RENAME test()=>void testFrameSc
 RefactoringAction 1497030814531 TestBowling.java ADD BowlingGame testGame FIELD
 RefactoringAction 1497030848090 TestBowling.java ADD Frame testFrame FIELD
 EditAction 1497030912850 TestBowling.java 251 1 2 1
+UnitTestCaseAction 1497030925357 TestBowling.java FAIL
+UnitTestSessionAction 1497030925361 TestBowling.java FAIL
+EditAction 1497030964724 Frame.java 692 6 7 0
