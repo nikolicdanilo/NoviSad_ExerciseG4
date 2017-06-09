@@ -52,3 +52,9 @@ RefactoringAction 1497031352955 Frame.java ADD Object scoreWithBonus() METHOD
 RefactoringAction 1497031357018 Frame.java ADD void setBonus(int) METHOD
 RefactoringAction 1497031389296 Frame.java ADD int bonus FIELD
 EditAction 1497031424992 Frame.java 1007 8 10 0
+UnitTestCaseAction 1497031433986 TestBowling.java OK
+UnitTestSessionAction 1497031433987 TestBowling.java OK
+RefactoringAction 1497031442581 TestBowling.java ADD void testScoreFrameWithBonus()/2 METHOD
+RefactoringAction 1497031446094 TestBowling.java RENAME testScoreFrameWithBonus()/2=>void testAdd() METHOD
+RefactoringAction 1497031447612 TestBowling.java RENAME testAdd()=>void testAddFrame() METHOD
+EditAction 1497031555612 TestBowling.java 925 6 14 6

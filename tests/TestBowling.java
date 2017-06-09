@@ -35,6 +35,14 @@ public class TestBowling {
 		assertEquals(12,testFrame.scoreWithBonus());
 		
 	}
+	@Test
+	public void testAddFrame() {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(4,3));
+		
+		assertEquals(1,testGame.getFrames().size());
+		
+	}
 	
 
 }
