@@ -230,3 +230,14 @@ RefactoringAction 1497034369670 TestBowling.java ADD void testGameFrameThrowsLow
 RefactoringAction 1497034384690 TestBowling.java RENAME testGameFrameThrowsLowerThan0()/2=>void testGameBonusThrows()/2 METHOD
 RefactoringAction 1497034391712 TestBowling.java RENAME testGameBonusThrows()/2=>void testGameBonusThrowsLowerThan0() METHOD
 EditAction 1497034421857 TestBowling.java 7061 21 137 14
+UnitTestCaseAction 1497034448037 TestBowling.java FAIL
+UnitTestSessionAction 1497034448038 TestBowling.java FAIL
+UnitTestCaseAction 1497034510887 TestBowling.java OK
+UnitTestSessionAction 1497034510889 TestBowling.java OK
+RefactoringAction 1497034627469 TestBowling.java ADD void testGameBonusThrowsLowerThan0()/2 METHOD
+RefactoringAction 1497034633991 TestBowling.java RENAME testGameBonusThrowsLowerThan0()/2=>void testGameBonusT() METHOD
+RefactoringAction 1497034635002 TestBowling.java RENAME testGameBonusT()=>void testGameBonusTh() METHOD
+RefactoringAction 1497034636514 TestBowling.java RENAME testGameBonusTh()=>void testGameBonusThrows()/2 METHOD
+RefactoringAction 1497034638524 TestBowling.java RENAME testGameBonusThrows()/2=>void testGameBonusThrowsStrike()/2 METHOD
+RefactoringAction 1497034646059 TestBowling.java RENAME testGameBonusThrowsStrike()/2=>void testGameBonusThrowsStrikeException() METHOD
+EditAction 1497034657580 TestBowling.java 7632 22 149 14

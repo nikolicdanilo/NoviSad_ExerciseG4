@@ -228,6 +228,22 @@ public class TestBowling {
 		testGame.setBonus(-2, 0);
 				
 	}
+	@Test(expected=BowlingException.class)
+	public void testGameBonusThrowsStrikeException() throws BowlingException {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(10,0));
+		testGame.setBonus(11, 0);
+				
+	}
 	
 
 }

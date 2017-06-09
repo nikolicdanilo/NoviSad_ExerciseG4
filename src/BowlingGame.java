@@ -25,6 +25,9 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
+		if(firstThrow<0 || secondThrow<0){
+			throw new BowlingException();
+		}
 		//to be implemented
 		if(frames.size()!=10){
 			throw new BowlingException();
