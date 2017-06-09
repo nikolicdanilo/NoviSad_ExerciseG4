@@ -195,3 +195,4 @@ RefactoringAction 1497033866059 TestBowling.java RENAME testGameBonusThrowsSpare
 RefactoringAction 1497033868072 TestBowling.java RENAME testGameBonusThrowsSpareFirstThrow()=>void testGameBonusThrowsSpareFirstThrowGreater() METHOD
 RefactoringAction 1497033870583 TestBowling.java RENAME testGameBonusThrowsSpareFirstThrowGreater()=>void testGameBonusThrowsSpareFirstThrowGreaterThan10() METHOD
 EditAction 1497033872023 TestBowling.java 6113 18 121 14
+EditAction 1497033897307 TestBowling.java 6114 18 121 14
