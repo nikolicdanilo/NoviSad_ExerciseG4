@@ -212,6 +212,22 @@ public class TestBowling {
 		testGame.addFrame(new Frame(-1,0));
 				
 	}
+	@Test(expected=BowlingException.class)
+	public void testGameBonusThrowsLowerThan0() throws BowlingException {
+		testGame=new BowlingGame();
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(10,0));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(4,3));
+		testGame.addFrame(new Frame(5,5));
+		testGame.setBonus(-2, 0);
+				
+	}
 	
 
 }
