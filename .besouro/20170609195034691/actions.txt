@@ -58,3 +58,8 @@ RefactoringAction 1497031442581 TestBowling.java ADD void testScoreFrameWithBonu
 RefactoringAction 1497031446094 TestBowling.java RENAME testScoreFrameWithBonus()/2=>void testAdd() METHOD
 RefactoringAction 1497031447612 TestBowling.java RENAME testAdd()=>void testAddFrame() METHOD
 EditAction 1497031555612 TestBowling.java 925 6 14 6
+CompilationAction 1497031567917 TestBowling.java
+UnitTestCaseAction 1497031571384 TestBowling.java FAIL
+UnitTestSessionAction 1497031571386 TestBowling.java FAIL
+RefactoringAction 1497031593109 BowlingGame.java ADD Object getFrames() METHOD
+EditAction 1497031621202 BowlingGame.java 805 5 2 0

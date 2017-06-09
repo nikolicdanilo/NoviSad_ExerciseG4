@@ -27,4 +27,9 @@ public class BowlingGame {
 		//to be implemented: should return game score 
 		return 0;
 	}
+
+	public List<Frame> getFrames() {
+		// TODO Auto-generated method stub
+		return frames;
+	}
 }
