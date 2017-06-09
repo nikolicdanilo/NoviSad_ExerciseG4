@@ -1,0 +1,5 @@
+FileOpenedAction 1497030635132 TestBowling.java 165 1 1 0
+RefactoringAction 1497030783927 TestBowling.java RENAME test()=>void testFrameScore() METHOD
+RefactoringAction 1497030814531 TestBowling.java ADD BowlingGame testGame FIELD
+RefactoringAction 1497030848090 TestBowling.java ADD Frame testFrame FIELD
+EditAction 1497030912850 TestBowling.java 251 1 2 1
