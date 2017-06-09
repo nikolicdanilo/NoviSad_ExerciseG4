@@ -60,3 +60,9 @@
 1497034361562 test-addition 2 98 true
 1497034510889 test-addition 2 141 true
 1497034510890 test-addition 1 141 true
+1497034843319 test-addition 2 215 true
+1497034843320 test-addition 1 215 true
+1497034843321 test-addition 2 215 true
+1497034843322 test-addition 1 215 true
+1497034843323 test-addition 2 215 true
+1497034843324 test-addition 1 215 true
